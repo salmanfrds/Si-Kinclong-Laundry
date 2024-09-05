@@ -1030,6 +1030,34 @@ video {
   width: 100%;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -2187,12 +2215,12 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
-.bg-\[url\(\'src\/laundry-basket\.jpg\'\)\] {
-  background-image: url('src/laundry-basket.jpg');
-}
-
 .bg-\[url\(\'\/src\/laundry-basket\.jpg\'\)\] {
   background-image: url('/src/laundry-basket.jpg');
+}
+
+.bg-\[url\(\'src\/laundry-basket\.jpg\'\)\] {
+  background-image: url('src/laundry-basket.jpg');
 }
 
 .decoration-slice {
