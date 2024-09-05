@@ -7,6 +7,7 @@ This repository contains the source code for the Si-Kinclong Laundry website, bu
 - HTML
 - CSS
 - JavaScript
+
 The website was created by me, in collaboration with @Adimaulana.
 
 **Features**
