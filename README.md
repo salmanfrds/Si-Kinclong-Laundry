@@ -1,4 +1,4 @@
-**Si-Kinclong Laundry Website**
+**Si-Kinclong Laundry Website**.
 Welcome to the Si-Kinclong Laundry website! This project is aimed at showcasing the services of Si-Kinclong Laundry, located in Bandung City, Indonesia.
 
 **About the Project**
