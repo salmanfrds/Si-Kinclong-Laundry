@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlet Kami</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- JS -->    
+    <script src="src/js/script.js" defer></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body class="bg-zinc-200 ">
+    <header class="fixed top-0 backdrop-blur-sm left-0 w-full pt-4 py-3 xl:py-5 px-5 bg-orange-400 bg-opacity-75 z-10 drop-shadow-lg flex justify-between md:justify-center items-center">
+      <a href="index.html"><img src="src/Logo-Sikinclong-cropped.png" class="logo w-24 items-center alig rounded-md border-2 border-orange-500 md:hidden " alt="not found"></a>
+      <nav class="gap-5 md:gap-10 text-white text-shadow navbar navactive hidden md:flex ">
+        <a href="index.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">HOME</a>
+        <a href="outlet.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">OUTLET KAMI</a>
+        <a href="layanan.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">LAYANAN</a>
+        <a href="contact.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">CONTACT</a>
+      </nav>
+      <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:hidden mr-3">
+        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left "></span>
+        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+      </button>
+      <nav id="nav-toggle" class="hidden md:hidden absolute right-4 top-3/4 bg-slate-200 rounded-lg px-3 py-4">
+        <ul>
+          <li class="text-base flex flex-col gap-2">
+            <a href="index.html" class="hover:text-orange-400 active:text-orange-400 :text-orange-400">HOME</a>
+            <a href="outlet.html" class="hover:text-orange-400 active:text-orange-400">OUTLET KAMI</a>
+            <a href="layanan.html" class="hover:text-orange-400 active:text-orange-400">LAYANAN</a>
+            <a href="contact.html" class="hover:text-orange-400 active:text-orange-400">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="flex flex-col items-center py-20 xl:py-28 gap-8">
+      <h1 class="text-base md:text-lg xl:text-xl"><b>OUTLET KAMI</b></h1>
+      <div data-aos="fade-down" class="text-center bg-orange-300 border-x-8 border-orange-300 rounded-lg w-2/3 h-auto relative py-2 overflow-hidden">
+        <div class="flex transition duration-300 ease-in-out h-full min-w-full" id="card-slider">
+          <!-- First Outlet Section -->
+          <div class="bg-white rounded-lg p-4 shadow-md white_card flex flex-col gap-4 w-full ml-3 md:ml-8 lg:mr-2 lg:ml-11 xl:ml-14 justify-between">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-2">
+              <div class="flex flex-col">
+                <div class="font-bold text-base md:text-lg text-left xl:text-2xl">ANTAPANI</div>
+                <div class="text-gray-700 text-left text-sm md:text-base">jalan purwakarta no 124, antapani, Bandung, Jawa Barat 40291</div>
+              </div>
+              <div class="flex gap-4">
+                <button><a href="https://goo.gl/maps/abc123" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">MAPS</a></button>
+                <button><a href="#" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">ORDER</a></button>
+              </div>
+            </div>
+            <div class="">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.5745017590225!2d107.64906496572574!3d-6.916020585381703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e70d1b277457%3A0x4cb33ec90dd8379f!2sLaundry%20Antapani%20Bandung%20-%20Murah%20Terdekat%20%E2%80%93%20Near%20Me%2C%20SI-KINCLONG!5e0!3m2!1sid!2sid!4v1723116150339!5m2!1sid!2sid" class="w-full rounded-lg h-60" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <!-- Second Outlet Section -->
+          <div class="bg-white rounded-lg p-4 shadow-md white_card flex flex-col gap-4 w-full ml-6 md:ml-14 md:mr-1 lg:ml-16 xl:ml-24 xl:mr-1 justify-between">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-2">  
+              <div class="flex flex-col">
+                <div class="font-bold text-base md:text-lg text-left xl:text-2xl">ARCAMANIK</div>
+                <div class="text-gray-700 text-left text-sm md:text-base">Jl. Golf Barat Raya No.5, Sukamiskin, Kec. Arcamanik, Kota Bandung, Jawa Barat 40293</div>
+              </div>
+              <div class="flex gap-4">
+                <button><a href="https://goo.gl/maps/abc123" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">MAPS</a></button>
+                <button><a href="#" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">ORDER</a></button>
+              </div>
+            </div>  
+            <div class="">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7670813384398!2d107.67078187403554!3d-6.918425567712328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ddc9bc6076a5%3A0xf30d003453651c52!2sSI-KINCLONG%2C%20Laundry%20Arcamanik%20-%20Jas%20-%20Karpet%20-%20Jaket%20Kulit%20%E2%80%93%20Gorden%20-%20Sepatu!5e0!3m2!1sid!2sid!4v1723111863516!5m2!1sid!2sid" class="w-full rounded-lg h-60" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <!-- Third Outlet Section -->
+          <div class="bg-white rounded-lg p-4 shadow-md white_card flex flex-col gap-4 w-full ml-7 md:ml-14 lg:ml-20 lg:mr-2 xl:ml-24 justify-between">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-2">
+              <div class="flex flex-col">
+                <div class="font-bold text-base md:text-lg text-left xl:text-2xl">MARGAHAYU</div>
+                <div class="text-gray-700 text-left text-sm md:text-base">Jl. Tata Surya No.58, metro, Kec. Margahayu, Kota Bandung, Jawa Barat 40286</div>
+              </div>
+              <div class="flex gap-4">
+                <button><a href="https://goo.gl/maps/abc123" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">MAPS</a></button>
+                <button><a href="#" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">ORDER</a></button>
+              </div>
+            </div>  
+            <div class="">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31684.250904046436!2d107.63051851083986!3d-6.946470799999982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e92af3776e3b%3A0xd3702719ccc706f8!2sLaundry%20Si-Kinclong%3A%20Laundry%20Berbasis%20Kiloan%20di%20Metro%20Margahayu%20Bandung!5e0!3m2!1sid!2sid!4v1723111982651!5m2!1sid!2sid" class="w-full rounded-lg h-60" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <!-- Fourth Outlet Section -->
+          <div class="bg-white rounded-lg p-4 shadow-md white_card flex flex-col gap-4 w-full ml-7 md:ml-12 lg:ml-16 xl:ml-28 justify-between">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-2">  
+              <div class="flex flex-col">
+                <div class="font-bold text-base md:text-lg xl:text-2xl text-left">CISARANTEN</div>
+                <div class="text-gray-700 text-left text-sm md:text-base">jalan sudirman no 56, cimahi, Bandung, Jawa Barat 40531</div>
+              </div>
+              <div class="flex gap-4">
+                <button><a href="https://goo.gl/maps/abc123" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">MAPS</a></button>
+                <button><a href="#" class="text-sm md:text-base bg-orange-400 p-2 hover:p-3 hover:text-base rounded-lg transition-all duration-300 ease-in-out text-white">ORDER</a></button>
+              </div>
+            </div>  
+            <div class="">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7670813384584!2d107.67078187295272!3d-6.918425567710089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ddc9bc6076a5%3A0xf30d003453651c52!2sSI-KINCLONG%2C%20Laundry%20Arcamanik%20-%20Jas%20-%20Karpet%20-%20Jaket%20Kulit%20%E2%80%93%20Gorden%20-%20Sepatu!5e0!3m2!1sen!2sid!4v1723109439084!5m2!1sen!2sid" class="w-full rounded-lg h-60"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between w-full absolute top-1/2 transform -translate-y-1/2">
+          <button id="prev" class="bg-black bg-opacity-50 text-white p-2 rounded-sm h-7 w-7 flex justify-center items-center">❮</button>
+          <button id="next" class="bg-black bg-opacity-50 text-white p-2 rounded-sm h-7 w-7 flex justify-center items-center">❯</button>
+        </div>
+      </div>
+      <h1 class="text-base md:text-lg xl:text-xl mt-10"><b>GALLERY</b></h1>
+      <div id="gallery" class="categories grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 p-1 gap-4"></div>
+    </div>
+    <footer class=" flex flex-col gap-3 px-5 py-3 items-center bg-orange-400 bg-opacity-90 shadow-2xl">
+      <div class="flex flex-col md:flex-row items-center gap-5">
+        <img src="src/Logo-Sikinclong-cropped.png" class="w-24 md:w-32 rounded-md border-2 border-orange-500" alt="not found">
+        <div class="flex gap-2">
+          <a href="https://www.instagram.com/sikinclong.laundry/" class="flex items-center justify-center w-7 h-7 md:w-9 md:h-9 rounded-full border-2 border-zinc-700">
+            <i data-feather="instagram" class="text-zinc-700 w-4 h-4 md:w-6 md:h-6"></i>
+          </a>
+          <a href="https://wa.me/+628112343011" class="flex items-center justify-center w-7 h-7 md:w-9 md:h-9 rounded-full border-2 border-zinc-700">
+            <i data-feather="phone" class="text-zinc-700 w-4 h-4 md:w-6 md:h-6"></i>
+          </a>
+          <a href="mailto:salmanfird4@outlook.com" class="flex items-center justify-center w-7 h-7 md:w-9 md:h-9 rounded-full border-2 border-zinc-700">
+            <i data-feather="mail" class="text-zinc-700 w-4 h-4 md:w-6 md:h-6"></i>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-row gap-1 md:3">
+        <div class="flex w-3 h-3">
+          <i data-feather="map-pin" class="text-zinc-800"></i>
+        </div>
+        <p class="text-zinc-800 text-center md:text-left">Komplek Bougenville Blok H no 4, Antapani, Kota Bandung</p>
+      </div>
+      <p class="text-zinc-800 text-center">&copy; 2024 Si-Kinclong Laundry. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        offset: 60,
+      });
+    </script>
+</body>
+</html>
