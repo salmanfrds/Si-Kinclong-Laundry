@@ -13,5 +13,4 @@ The website was created by me, in collaboration with @Adimaulana.
 - Easy navigation and user-friendly interface.
 - Responsive design for all devices.
 
-**How to Explore**
-Feel free to explore the website and learn more about our laundry services!
+**Feel free to explore the website and learn more about our laundry services!**
