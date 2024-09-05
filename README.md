@@ -6,7 +6,7 @@ Welcome to the Si-Kinclong Laundry website! This project is aimed at showcasing 
 
 This repository contains the source code for the Si-Kinclong Laundry website, built using:
 - HTML
-- CSS
+- CSS with Tailwind Framework
 - JavaScript
 
 The website was created by me, in collaboration with @Adimaulana.
