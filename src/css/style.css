@@ -2187,12 +2187,12 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
-.bg-\[url\(\'\/src\/laundry-basket\.jpg\'\)\] {
-  background-image: url('/src/laundry-basket.jpg');
-}
-
 .bg-\[url\(\'src\/laundry-basket\.jpg\'\)\] {
   background-image: url('src/laundry-basket.jpg');
+}
+
+.bg-\[url\(\'\/src\/laundry-basket\.jpg\'\)\] {
+  background-image: url('/src/laundry-basket.jpg');
 }
 
 .decoration-slice {
