@@ -1,5 +1,17 @@
-Si-Kinclong Laundry,
-this website have a purpose of presenting the laundry, "Si-Kinclong", located in Bandung city, Indonesia. This repository contains HTML, CSS, and Javascript.
-Made By me, in collaboration with @Adimaulana.
+**Si-Kinclong Laundry Website**
+Welcome to the Si-Kinclong Laundry website! This project is aimed at showcasing the services of Si-Kinclong Laundry, located in Bandung City, Indonesia.
 
-feel free to explore our website!!!
+**About the Project**
+This repository contains the source code for the Si-Kinclong Laundry website, built using:
+- HTML
+- CSS
+- JavaScript
+The website was created by me, in collaboration with @Adimaulana.
+
+**Features**
+- Comprehensive presentation of laundry services.
+- Easy navigation and user-friendly interface.
+- Responsive design for all devices.
+
+**How to Explore**
+Feel free to explore the website and learn more about our laundry services!
