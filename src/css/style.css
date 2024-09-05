@@ -2191,6 +2191,10 @@ video {
   background-image: url('/src/laundry-basket.jpg');
 }
 
+.bg-\[url\(\'src\/laundry-basket\.jpg\'\)\] {
+  background-image: url('src/laundry-basket.jpg');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
