@@ -1034,22 +1034,6 @@ video {
   min-width: 100%;
 }
 
-.max-w-96 {
-  max-width: 24rem;
-}
-
-.max-w-8 {
-  max-width: 2rem;
-}
-
-.max-w-80 {
-  max-width: 20rem;
-}
-
-.max-w-7 {
-  max-width: 1.75rem;
-}
-
 .max-w-72 {
   max-width: 18rem;
 }
@@ -3422,10 +3406,6 @@ body{
 
   .xl\:mr-1 {
     margin-right: 0.25rem;
-  }
-
-  .xl\:w-3\/4 {
-    width: 75%;
   }
 
   .xl\:w-2\/3 {
