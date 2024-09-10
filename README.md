@@ -17,5 +17,3 @@ The website was created by me, in collaboration with @Adimaulana.
 - Responsive design for all devices.
 
 **Feel free to explore the website and learn more about our laundry services!**
-
-https://salmanfrds.github.io/sikinclonglaundry/
