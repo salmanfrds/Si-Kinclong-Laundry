@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bergabung Bersama Kami</title>
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- CSS Styling -->
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Feather Icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
-    <!-- JS -->    
-    <script src="src/js/script.js" defer></script>
-    <!-- EmailJS SDK -->
-    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Si-Kinclong Laundry</title>    
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- CSS Styling -->
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Font Awesome-->
+  <script src="https://kit.fontawesome.com/f91ffb7c10.js" crossorigin="anonymous"></script>
+  <!-- JS -->    
+  <script src="src/js/script.js" defer></script>
+  <!-- EmailJS SDK -->
+  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <body class="bg-zinc-200">
-    <header class="fixed top-0 backdrop-blur-sm left-0 w-full pt-4 py-3 xl:py-5 px-5 bg-orange-400 bg-opacity-75 z-10 drop-shadow-lg flex justify-between md:justify-center items-center">
-      <a href="index.html"><img src="src/Logo-Sikinclong-cropped.png" class="logo w-24 items-center alig rounded-md border-2 border-orange-500 md:hidden " alt="not found"></a>
-      <nav class="gap-5 md:gap-10 text-white text-shadow navbar navactive hidden md:flex ">
-        <a href="index.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">HOME</a>
-        <a href="outlet.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">OUTLET KAMI</a>
-        <a href="layanan.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">LAYANAN</a>
-        <a href="contact.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">CONTACT</a>
-      </nav>
-      <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:hidden mr-3">
-        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left "></span>
-        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
-      </button>
-      <nav id="nav-toggle" class="hidden md:hidden absolute right-4 top-3/4 bg-slate-200 rounded-lg px-3 py-4">
-        <ul>
-          <li class="text-base flex flex-col gap-2">
-            <a href="index.html" class="hover:text-orange-400 active:text-orange-400 :text-orange-400">HOME</a>
-            <a href="outlet.html" class="hover:text-orange-400 active:text-orange-400">OUTLET KAMI</a>
-            <a href="layanan.html" class="hover:text-orange-400 active:text-orange-400">LAYANAN</a>
-            <a href="contact.html" class="hover:text-orange-400 active:text-orange-400">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <header class="fixed top-0 backdrop-blur-sm left-0 w-full pt-4 py-3 xl:py-5 px-5 bg-orange-400 bg-opacity-75 z-10 drop-shadow-lg flex justify-between md:justify-center items-center">
+    <a href="index.html"><img src="src/Logo-Sikinclong-cropped.png" class="logo w-24 items-center alig rounded-md border-2 border-orange-500 md:hidden " alt="not found"></a>
+    <nav class="gap-5 md:gap-10 text-white text-shadow navbar navactive hidden md:flex ">
+      <a href="index.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">HOME</a>
+      <a href="layanan.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">LAYANAN</a>
+      <a href="contact.html" class="text-sm lg:text-base xl:text-xl hover:text-orange-600 active:text-orange-600">CONTACT</a>
+    </nav>
+    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:hidden mr-3">
+      <span class="hamburger-line transition duration-300 ease-in-out origin-top-left "></span>
+      <span class="hamburger-line transition duration-300 ease-in-out"></span>
+      <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+    </button>
+    <nav id="nav-toggle" class="hidden md:hidden absolute right-4 top-3/4 bg-slate-200 rounded-lg px-3 py-4">
+      <ul>
+        <li class="text-base flex flex-col gap-2">
+          <a href="index.html" class="hover:text-orange-400 active:text-orange-400 :text-orange-400">HOME</a>
+          <a href="layanan.html" class="hover:text-orange-400 active:text-orange-400">LAYANAN</a>
+          <a href="contact.html" class="hover:text-orange-400 active:text-orange-400">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
     <div class="flex flex-col justify-center items-center py-20 xl:py-28">
         <div class="text-center rounded-lg w-5/6 lg:w-3/4 xl:w-2/3 flex flex-col gap-10">
             <h1 class="text-base md:text-lg xl:text-xl"><b>BERGABUNG DENGAN KAMI</b></h1>
@@ -79,28 +77,22 @@
             </div>
         </div>
     </div>
-    <footer class="flex flex-col gap-3 px-5 py-3 items-center bg-orange-400 bg-opacity-90 shadow-2xl">
-        <div class="flex flex-col md:flex-row items-center gap-5">
-          <img src="src/Logo-Sikinclong-cropped.png" class="w-24 md:w-32 rounded-md border-2 border-orange-500" alt="not found">
-          <div class="flex gap-2">
-            <a href="https://www.instagram.com/sikinclong.laundry/" class="flex items-center justify-center w-7 h-7 md:w-9 md:h-9 rounded-full border-2 border-zinc-700">
-              <i data-feather="instagram" class="text-zinc-700 w-4 h-4 md:w-6 md:h-6"></i>
-            </a>
-            <a href="https://wa.me/+628112343011" class="flex items-center justify-center w-7 h-7 md:w-9 md:h-9 rounded-full border-2 border-zinc-700">
-              <i data-feather="phone" class="text-zinc-700 w-4 h-4 md:w-6 md:h-6"></i>
-            </a>
-            <a href="mailto:salmanfird4@outlook.com" class="flex items-center justify-center w-7 h-7 md:w-9 md:h-9 rounded-full border-2 border-zinc-700">
-              <i data-feather="mail" class="text-zinc-700 w-4 h-4 md:w-6 md:h-6"></i>
-            </a>
-          </div>
+    <footer class="mt-3 flex flex-col gap-3 px-5 py-3 items-center bg-orange-400 bg-opacity-90 shadow-2xl">
+      <div class="flex flex-col md:flex-row items-center gap-5">
+        <img src="src/Logo-Sikinclong-cropped.png" class="w-24 md:w-32 rounded-md border-2 border-orange-500" alt="not found">
+        <div class="flex gap-4">
+          <a href="https://wa.me/628112343011"><i class="fa-brands fa-square-whatsapp fa-2xl text-zinc-700"></i></a>
+          <a href="mailto:salmanfird4@outlook.com"><i class="fa-solid fa-square-envelope fa-2xl text-zinc-700 "></i></a>
+          <a href="https://www.instagram.com/dineugarden?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-square-instagram fa-2xl text-zinc-700"></i> </a>
+        </div>  
+      </div>
+      <div class="flex flex-row md:gap-2">
+        <div class="flex w-3 h-3">
+          <i data-feather="map-pin" class="text-zinc-800"></i>
         </div>
-        <div class="flex flex-row gap-1 md:3">
-          <div class="flex w-3 h-3">
-            <i data-feather="map-pin" class="text-zinc-800"></i>
-          </div>
-          <p class="text-zinc-800 text-center md:text-left">Komplek Bougenville Blok H no 4, Antapani, Kota Bandung</p>
-        </div>
-        <p class="text-zinc-800 text-center">&copy; 2024 Si-Kinclong Laundry. All rights reserved.</p>
+        <p class="text-zinc-800 text-center md:text-left">Jl. Bougenville Blok H no 4, Antapani, Kota Bandung</p>
+      </div>
+      <p class="text-zinc-800 text-center">&copy; 2024 Si-Kinclong Laundry. All rights reserved.</p>
     </footer>
     <script>
         (function() {
