@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- CSS Styling -->
   <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Font Awesome-->
   <script src="https://kit.fontawesome.com/f91ffb7c10.js" crossorigin="anonymous"></script>
   <!-- JS -->    
@@ -42,13 +42,13 @@
   </header>
 
   <div class="flex flex-col items-center py-20 xl:py-28 text-zinc-800">
-    <div class="text-center w-5/6 lg:w-3/4 xl:w-2/3 flex flex-col gap-4 md:gap-10">
-      <h1 class="text-base md:text-lg xl:text-xl"><b>BERGABUNG DENGAN KAMI</b></h1>
+    <div class="text-center w-5/6 lg:w-3/4 flex flex-col gap-4 md:gap-10">
+      <h1 class="text-base md:text-lg xl:text-2xl"><b>BERGABUNG DENGAN KAMI</b></h1>
       <div class="flex flex-col md:flex-row gap-4 items-center p-4 md:p-2 md:shadow-lg rounded-sm">
         <img src="src/abi profile.jpg" alt="Deddy Armyadi" class="rounded-sm w-3/4 md:w-1/4">
-        <div class="flex flex-col gap-2 text-center md:text-left">
-          <h1 data-aos="fade-right" class="text-xl xl:text-2xl md:text-left"><b>Deddy Armyadi</b></h1>
-          <p data-aos="fade-right" class="text-center md:text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis lorem cursus erat dapibus molestie. Vivamus rhoncus lacus sed metus tincidunt iaculis. Quisque vel dapibus libero. Aliquam mi arcu, molestie eget felis id, dapibus vehicula dolor. Nullam dapibus ipsum libero, quis tempor erat lobortis et. Duis gravida ultricies nisi, quis dictum lorem.</p>
+        <div class="flex flex-col gap-4 xl:gap-8 text-center md:text-left">
+          <h1 data-aos="fade-right" class="text-lg md:text-xl xl:text-2xl md:text-left"><b>Deddy Armyadi</b></h1>
+          <p data-aos="fade-right" class="text-center md:text-justify md:text-lg xl:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis lorem cursus erat dapibus molestie. Vivamus rhoncus lacus sed metus tincidunt iaculis. Quisque vel dapibus libero. Aliquam mi arcu, molestie eget felis id, dapibus vehicula dolor. Nullam dapibus ipsum libero, quis tempor erat lobortis et. Duis gravida ultricies nisi, quis dictum lorem.</p>
         </div>
       </div>
       <div class="map flex justify-center items-center">
@@ -57,18 +57,18 @@
       <!-- Form Section -->
       <div class="flex flex-col gap-4 md:gap-10">
           <div class="text-left flex flex-col gap-4">
-              <p data-aos="fade-right" class="text-sm md:text-base xl:text-lg"><strong>Kontak</strong><br> Telepon Kantor: +628112343011<br> Whatsapp: <a href="https://wa.me/628112343011" class="text-purple-600" target="_blank">(Salma)</a></p>
-              <p data-aos="fade-right" class="text-sm md:text-base xl:text-lg"><strong>Kantor</strong><br>Jl.Bougenville Raya Blok H No.4, Bandung, Jawa Barat 40291 <br>Jl.Purwakarta no 124, antapani, Bandung, Jawa Barat 40291</p>
-              <p data-aos="fade-right" class="text-sm md:text-base xl:text-lg"><strong>Jam Operasional</strong><br>Senin - Minggu / 9.00 - 18.00 WIB</p>
-              <p data-aos="fade-right" class="text-sm md:text-base xl:text-lg"><strong>Email</strong><br> sikinclonglaoundry.com<br> salmanfird4@outlook.com(Salman)</p>
+              <p data-aos="fade-right" class="text-sm md:text-base xl:text-xl"><strong>Kontak</strong><br> Telepon Kantor: +628112343011<br> Whatsapp: <a href="https://wa.me/628112343011" class="text-purple-600" target="_blank">(Salma)</a></p>
+              <p data-aos="fade-right" class="text-sm md:text-base xl:text-xl"><strong>Kantor</strong><br>Jl.Bougenville Raya Blok H No.4, Bandung, Jawa Barat 40291 <br>Jl.Purwakarta no 124, antapani, Bandung, Jawa Barat 40291</p>
+              <p data-aos="fade-right" class="text-sm md:text-base xl:text-xl"><strong>Jam Operasional</strong><br>Senin - Minggu / 9.00 - 18.00 WIB</p>
+              <p data-aos="fade-right" class="text-sm md:text-base xl:text-xl"><strong>Email</strong><br> sikinclonglaoundry.com<br> salmanfird4@outlook.com(Salman)</p>
           </div>
-          <div class="form text-left w-full">
+          <div class="form text-left w-full text-sm md:text-base xl:text-xl">
             <form id="contact-form" class="space-y-3">
                 <input type="text" name="name" placeholder="Nama Lengkap" required class="w-full p-2 border border-gray-300 rounded-md text-4vw md:text-base">
                 <input type="email" name="email" placeholder="Masukkan Email anda disini" required class="w-full p-2 border border-gray-300 rounded-md text-4vw md:text-base">
                 <input type="tel" name="phone" placeholder="Masukkan Nomor HP/Whatsapp" required class="w-full p-2 border border-gray-300 rounded-md text-4vw md:text-base">
                 <textarea name="message" placeholder="Pesan anda" required class="w-full p-2 border border-gray-300 rounded-md h-[20vh] text-4vw md:text-base"></textarea>
-                <button type="submit" class="bg-orange-500 text-white py-2 px-4 rounded-md cursor-pointer text-4vw md:text-base hover:bg-orange-600 w-full">Kirim</button>
+                <button type="submit" class="bg-orange-400 text-white py-2 px-4 rounded-md cursor-pointer text-4vw md:text-base hover:bg-orange-500 w-full xl:text-xl">Kirim</button>
             </form>
           </div>
       </div>
