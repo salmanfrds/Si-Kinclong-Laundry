@@ -19,12 +19,18 @@ const prevBtn = document.getElementById('prev');
 
 let currentIndex = 0;
 
-nextBtn.addEventListener('click', () => {
+const goToNextSlide = () => {
     currentIndex = (currentIndex + 1) % 4;
     cardSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
-});
+};
 
-prevBtn.addEventListener('click', () => {
+const goToPrevSlide = () => {
     currentIndex = (currentIndex - 1 + 4) % 4;
     cardSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
-});
+};
+
+nextBtn.addEventListener('click', goToNextSlide);
+prevBtn.addEventListener('click', goToPrevSlide);
+
+// Automatically move to the next slide every 10 seconds
+setInterval(goToNextSlide, 3000);
