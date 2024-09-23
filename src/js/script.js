@@ -33,4 +33,4 @@ nextBtn.addEventListener('click', goToNextSlide);
 prevBtn.addEventListener('click', goToPrevSlide);
 
 // Automatically move to the next slide every 10 seconds
-setInterval(goToNextSlide, 3000);
+setInterval(goToNextSlide, 15000);
